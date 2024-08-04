@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{partial "head.html" . }}
+<body>
+{{partial "header.html" . }}
+
+
+
+<main class="large_gallery">
+
+
+    <div>
+        {{partial "bio.html" . }}
+    </div>
+
+    <div>
+        {{partial "doodle.html" . }}
+    </div>
+
+    {{ .Content }}
+
+</main>
+
+{{partial "footer.html" .}}
+</body>
+</html>
