@@ -37,11 +37,9 @@ header{
     margin-bottom: 20px;
     margin-top: 10px;
 }
-
 #name{
 
     margin: auto;
-    position: relative;
     display: grid;
 
     & > * {
@@ -89,6 +87,15 @@ menu{
         padding: 10px;
         border: 3px rgba(1, 1, 1, 0) solid;
         border-radius: 20px;
+
+        transition-property: border-color;
+        transition-duration: 750ms;
+
+    }
+
+    a:hover{
+
+        border-color: #201030;
     }
 
 }
@@ -109,9 +116,7 @@ h3{
 
 }
 
-a:hover{
-    border-color: #201030;
-}
+
 
 .split{
 
@@ -189,6 +194,12 @@ main{
             transition-property: filter;
             transition-duration: 750ms;
 
+            height: 80%;
+            width: 75%;
+            
+            object-fit: cover;
+
+
         }
 
         img:hover{
@@ -205,18 +216,12 @@ main{
     
     }
 
-    img{
-
-        width: 75%;
-
-    }
-
 }
 
 
 .doodle_today{
 
-    width: 400px;
+    width: 100%;
     border: 15px #334 ridge;
     padding: 15px;
     background: linear-gradient(.4turn, #112, #223, #112);
@@ -290,15 +295,18 @@ footer{
     
         }
 
-    #name{
+    #banner{
 
-        grid-column: 1;
+        grid-template-columns: 0 1fr 0;
 
     }
 
-    .banner{
 
-        grid-template-columns: 1fr;
+    #name{
+
+        grid-column: 1/4;
+        padding: 0%;
+        width: fit-content;
 
     }
 
@@ -310,7 +318,6 @@ footer{
     }
 
     menu{
-
 
         border-radius: 0 0 20px 20px;
         background: linear-gradient(rgba(0,0,0,0), #100020);
@@ -330,13 +337,6 @@ footer{
     .split{
 
         grid-template-columns: 1fr;
-
-    }
-
-
-    .doodle_today{
-
-        width: 200px;
 
     }
 
