@@ -171,8 +171,48 @@ main{
         height: 100%;
  
     }
+    
+    text-align: center;
+
+    .tile{
+
+        display: flex;
+        flex-direction: column;
+        transition-property: letter-spacing;
+        transition-duration: 750ms;
+        line-height: 20px;
+
+        img{
+
+            margin: auto;
+            filter: grayscale(100%);
+            transition-property: filter;
+            transition-duration: 750ms;
+
+        }
+
+        img:hover{
+
+            filter: grayscale(0%)
+
+        }
+
+    }
+
+    .tile:hover{
+
+        letter-spacing: 2px;
+    
+    }
+
+    img{
+
+        width: 75%;
+
+    }
 
 }
+
 
 .doodle_today{
 
@@ -233,6 +273,23 @@ footer{
 
         grid-template-columns: 1fr;
 
+        .tile{
+
+            border-top: 10px solid #201030;
+            padding-bottom: 20px;
+            width: 100%;
+
+        }
+
+        img{
+    
+            filter: grayscale(0%);
+            width: 98%;
+    
+        }
+    
+        }
+
     }
 
     #name{
@@ -256,8 +313,7 @@ footer{
 
     menu{
 
-        display: grid;
-        grid-template-columns: 1fr;
+
         border-radius: 0 0 20px 20px;
         background: linear-gradient(rgba(0,0,0,0), #100020);
 
@@ -286,4 +342,3 @@ footer{
 
     }
 
-}
