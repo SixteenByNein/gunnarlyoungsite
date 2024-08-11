@@ -221,7 +221,7 @@ main{
 
 .doodle_today{
 
-    width: 100%;
+    width: 75%;
     border: 15px #334 ridge;
     padding: 15px;
     background: linear-gradient(.4turn, #112, #223, #112);
