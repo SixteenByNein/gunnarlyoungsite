@@ -257,41 +257,6 @@ footer{
 
 }
 
-
-@media screen and (max-width: 600px) {
-
-    main{
-
-        width: 100%;
-        padding: 0;
-        padding-bottom: 40px;
-        margin-bottom: 20px;
-
-    }
-
-    .large_gallery{
-
-        grid-template-columns: 1fr;
-
-        .tile{
-
-            border-top: 10px solid #201030;
-            padding-bottom: 20px;
-            width: 100%;
-
-        }
-
-        img{
-    
-            filter: grayscale(0%);
-            width: 98%;
-    
-        }
-    
-        }
-
-    }
-
     #name{
 
         grid-column: 1;
@@ -341,4 +306,40 @@ footer{
         width: 200px;
 
     }
+
+
+
+    @media screen and (max-width: 600px) {
+
+        main{
+    
+            width: 100%;
+            padding: 0;
+            padding-bottom: 40px;
+            margin-bottom: 20px;
+    
+        }
+    
+        .large_gallery{
+    
+            grid-template-columns: 1fr;
+    
+            .tile{
+    
+                border-top: 10px solid #201030;
+                padding-bottom: 20px;
+                width: 100%;
+    
+            }
+    
+            img{
+        
+                filter: grayscale(0%);
+                width: 98%;
+        
+            }
+        
+            }
+    
+        }
 
