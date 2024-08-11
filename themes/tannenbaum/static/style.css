@@ -222,7 +222,7 @@ main{
 
 .doodle_today{
 
-    width: 75%;
+    width: 50%;
     border: 15px #334 ridge;
     padding: 15px;
     background: linear-gradient(.4turn, #112, #223, #112);
@@ -275,6 +275,7 @@ footer{
 
     }
 
+
     .large_gallery{
 
         grid-template-columns: 1fr;
@@ -292,6 +293,12 @@ footer{
             filter: grayscale(0%);
             width: 98%;
     
+        }
+
+        .doodle_today{
+
+            width: 50%;
+
         }
     
         }
@@ -322,12 +329,6 @@ footer{
 
         border-radius: 0 0 20px 20px;
         background: linear-gradient(rgba(0,0,0,0), #100020);
-
-    }
-
-    .doodle_today{
-
-        width: 50%;
 
     }
 
