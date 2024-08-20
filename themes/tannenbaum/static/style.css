@@ -270,7 +270,8 @@ footer{
 
     img{
 
-        width: 100%;
+        width: 90%;
+        margin: auto;
 
     }
 
@@ -365,6 +366,13 @@ footer{
 
         display: grid;
         grid-template-columns: 1fr;
+
+        img{
+
+            height: 500px;
+            width: auto;
+
+        }
 
     }
 
