@@ -300,6 +300,29 @@ footer{
 
 }
 
+.grid_icon{
+
+    width: 50%;
+
+    img{
+
+        width: 100%;
+
+    }
+
+    h2{
+
+        text-align: center;
+
+    }
+    
+    a{
+
+        color: #c0d0d0;
+
+    }
+
+}
 
 @media screen and (max-width: 600px) {
 
