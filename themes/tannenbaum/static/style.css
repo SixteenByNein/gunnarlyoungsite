@@ -1,6 +1,13 @@
 html{
+/*
+    background-color: #201030;
+    background-image: url("/background_doodles.png");
+    background-size: 30%;
+*/
 
     background-color: #201030;
+    
+    
     color: #c0d0d0;
 
     font-family: "Lexend", sans-serif;
@@ -35,7 +42,11 @@ header{
     margin: auto;
     text-align: center;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 0px;
+    padding-top: 10px;
+
+    background-color: #201030;
+
 }
 #name{
 
@@ -142,7 +153,7 @@ h3{
 }
 
 main{
-    background-color: #435;
+    background-color: RGBA(136, 102, 170, .3);
     margin: auto;
     width: 70%;
     border-radius: 5px;
