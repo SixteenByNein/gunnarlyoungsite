@@ -117,8 +117,37 @@ main{
 
 }
 
+.left{
+
+    transform: scale(-1);
+
+}
+
+.right{
+
+    transform: scaleY(-1);
+
+}
+
 
 footer{
+
+
+    height: 4rem;
+
+    margin: auto;
+
+    display: flex;
+
+    justify-content: center;
+
+    img{
+
+        width: auto;
+
+        object-fit: contain;
+
+    }
 
     text-align: center;
 
@@ -128,7 +157,7 @@ footer{
 
     font-variant-caps: small-caps;
 
-    padding: .3rem;
+    padding: 0.3rem;
     
     background-image: -moz-linear-gradient(rgba(0,0,0,0),     rgba(0, 0, 0, 0.3));
 
@@ -138,8 +167,6 @@ footer{
 
         width: fit-content;
 
-        margin: auto;
-
         padding: 1rem;
 
         border: #FA0 3px solid;
@@ -147,6 +174,8 @@ footer{
         border-left: #FA0 9px double;
 
         border-right: #FA0 9px double;
+
+        margin: 0%;
 
     }
 
@@ -265,5 +294,17 @@ header{
 
     }
 
+    footer{
+
+        height: 2rem;
+
+
+        p{
+
+            padding: 2px;
+
+        }
+
+    }
     
 }
