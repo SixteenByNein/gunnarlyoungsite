@@ -1,0 +1,21 @@
+main{
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    img{
+
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (max-width: 80rem) {
+
+    main{
+        display: block;
+    }
+    
+}

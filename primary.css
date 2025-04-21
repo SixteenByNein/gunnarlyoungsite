@@ -36,7 +36,7 @@ h2, h3, h4, h5, h6{
 
     display: grid;
 
-    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-columns: 3fr 3fr 5fr 3fr 3fr;
 
     padding-bottom: 0%;
 
@@ -108,6 +108,12 @@ main{
     background-color: rgba(0, 0, 0, 0.1);
 
     border: #100020 2px solid;
+
+    a{
+
+        text-decoration: underline;
+
+    }
 
 }
 
