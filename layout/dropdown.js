@@ -1,7 +1,6 @@
 function toggleMenu()
 {
 
-    console.log("Hello");
 
     var menu = document.getElementById("collapsed");
 

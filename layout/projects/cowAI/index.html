@@ -19,10 +19,12 @@
 <body>
 
 
-    <div class="pannel">
+    <div class="pannel" id="info">
 
         <h3>What is BovAi?</h3>
         <p>In recent years, AI technology has improved by leaps and bounds but with all this progress, there has been one clear shortcoming: all AIs have been trained exclusively on human conversation.<br><br><b>until now!</b><br><br><i>BovAi</i> has been trained on dozens of seconds of cattle conversation. The technolgy of yesteryear would require you to drive at least a mile just to talk with a cow but now you can have an identical experience from the comfort of your suburban home!</p>
+
+        <h2 class="close" onclick="toggleInfo(true)">Close</h2>
 
     </div>
 
@@ -40,7 +42,7 @@
 
     </main>
 
-    <div class="pannel">
+    <div class="pannel" id="menu">
 
         <a href="https://gunnarlyoung.com">
         <img src="signature.png" alt="">
@@ -50,11 +52,29 @@
         <h2>Home</h2></a>
         <a href="/portfolio"><h2>Portfolio</h2></a>
         <a href="/contact"><h2>Contact Me</h2></a>
+        <a href="/projects"><h2>Projects</h2></a>
         <a href="/doodle"><h2>Doodle of the Week</h2></a>
         <a href="https://store.gunnarlyoung.com/"><h2>Store</h2></a>
 
+        <h2 class="close" onclick="toggleMenu(true)">Resume</h2>
+
     </div>
 
+    <div id="navigation">
+
+    <h2 id="about" onclick="toggleInfo(false)">
+
+        ?
+
+    </h2>
+
+    <h2 id="menuToggle" onclick="toggleMenu(false)">
+
+        ☰
+
+    </h2>
+
+    </div>
 
 </body>
 

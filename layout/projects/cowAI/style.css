@@ -89,3 +89,77 @@ h1,h2,h3,h4{
     text-align: center;
 
 }
+
+#navigation{
+
+    display: none;
+
+}
+
+.close{
+
+    display: none;
+
+}
+
+@media screen and (max-width: 80rem) {
+
+    body{
+
+        margin: 0;
+
+        display: block;
+
+    }
+
+    main{
+
+        padding: 0%;
+
+        margin: auto;
+
+        p{
+
+            height: 50vh
+
+        }
+
+    }
+
+    .pannel{
+
+        position: fixed;
+        top: 0;
+
+        background-color: #000;
+
+    }
+
+    #menu{
+
+        display: none;
+
+    }
+
+    footer{
+
+        height: fit-content;
+
+    }
+
+    #navigation{
+
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        visibility: hidden;
+
+    }
+
+    .close{
+
+        display: block;
+
+    }
+    
+}
