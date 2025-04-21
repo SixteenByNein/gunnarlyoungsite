@@ -181,6 +181,8 @@ footer{
 
     margin-top: 1rem;
 
+    filter: drop-shadow(4px 4px 4px #000);
+
 
 }
 
