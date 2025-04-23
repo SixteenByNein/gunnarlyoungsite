@@ -207,7 +207,11 @@ footer{
 
     z-index: 999;
     
+    img{
 
+        width: 100vw;
+
+    }
 
 
 
@@ -242,6 +246,8 @@ footer{
 #hamburger{
 
     color: #FA0;
+
+    object-fit: cover;
 
 }
 
@@ -303,8 +309,9 @@ header{
 
     #mobile{
 
-        display: flex;
+        display: block;
         flex-direction: column;
+        
 
     }
 
