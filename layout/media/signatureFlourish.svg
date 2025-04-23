@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="177.53339mm"
-   height="61.116676mm"
-   viewBox="0 0 177.53339 61.116676"
+   width="238.1916mm"
+   height="57.916676mm"
+   viewBox="0 0 238.19161 57.916675"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -37,10 +37,19 @@
     <inkscape:grid
        type="xygrid"
        id="grid236"
-       originx="105"
-       originy="148.5"
+       originx="103.39997"
+       originy="146.89999"
        spacingx="5.2916667"
-       spacingy="5.2916667" />
+       spacingy="5.2916667"
+       units="mm" />
+    <inkscape:page
+       x="-5.1915285e-16"
+       y="0"
+       width="238.19162"
+       height="57.916676"
+       id="page2"
+       margin="0"
+       bleed="0" />
   </sodipodi:namedview>
   <defs
      id="defs2" />
@@ -48,10 +57,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-32.108288,-65.025)">
+     transform="translate(-33.708321,-66.624996)">
     <path
        style="fill:none;stroke:#ffaa00;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       d="M 205.54167,69.125 H 89.125 c 0,0 -10e-7,26.458333 -26.458334,26.458333 C 36.208333,95.583333 36.208333,69.125 36.208333,69.125 l -1e-6,52.91666 142.874998,1e-5"
+       d="M 269.39994,69.125 H 89.125 c 0,0 -10e-7,26.458333 -26.458334,26.458333 C 36.208333,95.583333 36.208333,69.125 36.208333,69.125 l -1e-6,52.91666 190.858278,1e-5"
        id="path396"
        sodipodi:nodetypes="ccsccc"
        inkscape:export-filename="signatureFlourish.svg"
@@ -71,7 +80,7 @@
        r="10.583333" />
     <path
        style="fill:none;stroke:#ffaa00;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       d="m 163.20833,95.583331 h 26.45834"
+       d="m 163.20833,95.583331 h 79.73328"
        id="path2462"
        sodipodi:nodetypes="cc" />
     <path
