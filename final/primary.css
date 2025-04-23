@@ -40,28 +40,14 @@ h2, h3, h4, h5, h6{
     
     flex-direction: row;
 
-    display: grid;
-
-    grid-template-columns: 3fr 3fr 5fr 3fr 3fr;
-
-    background-color: rgba(70, 63, 6, 0.1);
-
-    backdrop-filter: blur(4px);
-
-    border: #FA0 3px solid;
-
-    border-left: #FA0 9px double;
-
-    border-right: #FA0 9px double;
-
-    margin: 0 20rem 1rem;
-
-    border-top: none;
-
-
-
 
     padding-bottom: 0%;
+
+    margin: 0 10rem 1rem;
+
+    top: 0;
+
+    position: sticky;
 
     h1{
 
@@ -71,14 +57,29 @@ h2, h3, h4, h5, h6{
     }
 
 
-    
+    img{
 
-    top: 0;
+        width: 10rem;
 
-    position: sticky;
+    }
 
-    
+}
 
+#innerHeader{
+
+    display: grid;
+
+    grid-template-columns: 3fr 3fr 5fr 3fr 3fr;
+
+    background-color: rgba(70, 63, 6, 0.1);
+
+    width: 100%;
+
+    backdrop-filter: blur(4px);
+
+    border-bottom: #FA0 13px solid;
+
+    border-top: none;
 
 }
 
