@@ -25,7 +25,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.74742565"
-     inkscape:cx="480.31534"
+     inkscape:cx="480.31533"
      inkscape:cy="227.44737"
      inkscape:window-width="1860"
      inkscape:window-height="1011"
@@ -42,7 +42,11 @@
      transform="translate(-17.936728,-44.711577)">
     <g
        id="g534"
-       style="stroke:#ffaa00;stroke-width:10;stroke-dasharray:none;stroke-opacity:1">
+       style="stroke:#ffaa00;stroke-width:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1,0,0,-1,0,192.5991)"
+       inkscape:export-filename="flourish.svg"
+       inkscape:export-xdpi="50"
+       inkscape:export-ydpi="50">
       <path
          id="path496-3"
          style="fill:none;fill-rule:evenodd;stroke:#ffaa00;stroke-width:15.9712;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -52,14 +56,15 @@
     </g>
     <path
        style="fill:none;stroke:#ffaa00;stroke-width:10;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
-       d="m 65.785331,114.93437 c 29.104877,0 16.653928,-40.318733 75.343609,-40.318733"
+       d="m 65.785331,77.664726 c 29.104877,0 16.653928,40.318734 75.343609,40.318734"
        id="path539"
        sodipodi:nodetypes="cc" />
     <circle
        style="fill:none;stroke:#ffaa00;stroke-width:10;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        id="path1931"
        cx="57.991791"
-       cy="79.332474"
-       r="11.722697" />
+       cy="-113.26662"
+       r="11.722697"
+       transform="scale(1,-1)" />
   </g>
 </svg>

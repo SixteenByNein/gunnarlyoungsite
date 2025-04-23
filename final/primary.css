@@ -119,13 +119,7 @@ main{
 
 .left{
 
-    transform: scale(-1);
-
-}
-
-.right{
-
-    transform: scaleY(-1);
+    transform: scaleX(-1);
 
 }
 
