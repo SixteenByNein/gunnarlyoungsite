@@ -279,9 +279,15 @@ header{
 
     }
 
+    #widescreen{
+
+        margin: 0 0rem 1rem;
+
+    }
+
     main{
 
-        margin: 0%;
+        margin: 0 10rem ;
 
     }
     
@@ -302,6 +308,12 @@ header{
             line-height: 0%;
 
         }
+
+    }
+
+    main{
+
+        margin: 0;
 
     }
 
