@@ -65,11 +65,19 @@ h2, h3, h4, h5, h6{
 
 }
 
+.wing{
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+}
+
 #innerHeader{
 
     display: grid;
 
-    grid-template-columns: 3fr 3fr 5fr 3fr 3fr;
+    grid-template-columns: 1fr 1fr 1fr;
 
     background-color: rgba(70, 63, 6, 0.1);
 
@@ -259,7 +267,7 @@ header{
 
         color: #cec7a1;
     
-        letter-spacing: .3rem;
+        letter-spacing: .2rem;
     
         h2{
     
