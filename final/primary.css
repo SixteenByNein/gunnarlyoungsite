@@ -79,7 +79,7 @@ h2, h3, h4, h5, h6{
 
     grid-template-columns: 1fr 1fr 1fr;
 
-    background-color: rgba(70, 63, 6, 0.1);
+    background-color: rgba(23, 4, 53, 0.603);
 
     width: 100%;
 
@@ -214,6 +214,11 @@ footer{
     top: 0%;
 
     z-index: 999;
+
+    backdrop-filter: blur(4px);
+
+    background-color: rgba(23, 4, 53, 0.603);
+
     
     img{
 
@@ -237,10 +242,6 @@ footer{
 
         flex-direction: column;
 
-        backdrop-filter: blur(4px);
-
-        background-color: rgba(70, 63, 6, 0.1);
-
     }
 
     #title{
@@ -259,6 +260,14 @@ footer{
 
 }
 
+#bottomShelf{
+
+    position: fixed;
+
+    top: 0%;
+
+}
+
 header{
 
     z-index: 999;
@@ -268,12 +277,7 @@ header{
         color: #cec7a1;
     
         letter-spacing: .2rem;
-    
-        h2{
-    
-            filter: drop-shadow(2px 2px 2px #000);
-    
-        }
+
     
     }
 

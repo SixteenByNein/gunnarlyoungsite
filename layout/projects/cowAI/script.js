@@ -78,7 +78,6 @@ function toggleMenu(open)
         menu.style.display="block";
         nav.style.visibility="hidden";
 
-
     }
     
 
