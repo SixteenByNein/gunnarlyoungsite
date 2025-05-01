@@ -1,194 +1,111 @@
 html
 {
 
-    background-color: #000;
+    background-image: url("backgrounds/tabletop.jpg");
 
-    background-image: url("backgrounds/sky.png");
-
-    color: #F93;
+    color: #444;
 
     background-attachment: fixed;
 
-    font-family: "DM Serif Text", serif;
+    font-family: "Indie Flower", cursive;
     
+    padding: 0%;
+
+    margin: 0%;
+
+}
+
+
+header{
+
+    background-image: url(backgrounds/header.png);
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    padding: .5rem;
+
+    position: sticky;
+
+    text-align: center;
+
+    top: 0;
+
+    margin: auto;
+
+    filter: drop-shadow(0px 2px 5px #000);
+
+    z-index: 999;
 
 
 }
 
 body{
 
+    padding: 0%;
+
     margin: 0%;
 
-
 }
-
-header{
-
-    background-color: rgba(0, 0, 0, 0.2);
-
-    position: sticky;
-
-    top: 1rem;
-    
-    padding: 0;
-
-    font-family: "Pirata One", system-ui;
-
-    line-height: 4rem;
-
-    margin: 0;
-
-    border: 3px #F93 solid;
-
-    border-radius: .5rem;
-
-    backdrop-filter: blur(4px);
-
-
-}
-
-#overlay
-{
-
-    height: 100vh;
-
-    width: 100vw;
-
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-
-    position: fixed;
-
-    top: 0%;
-
-}
-
-#clouds
-{
-
-    background-size: contain;
-
-    background-repeat: repeat-x;
-
-    background-attachment: fixed;
-
-
-    background-image: url("backgrounds/clouds.png");
-
-    animation-name: scroll;
-    animation-duration: 13s;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-    animation-timing-function: linear;
-
-    z-index: -999;
-
-
-}
-
-@keyframes scroll {
-
-    0%{
-
-
-        background-position-x: 0%;
-
-    }
-
-    100% {
-
-        background-position-x: 100vw;
-
-    }
-    
-}
-
-
-#mountains
-{   
-
-
-
-
-    background-image: url("backgrounds/mountains.png");
-
-    background-repeat: repeat-x;
-
-    background-attachment: fixed;
-
-    background-size: 90vh;
-
-    background-position: bottom;
-
-    animation-name: mount;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-    animation-timing-function: linear;
-
-    z-index: -998;
-
-
-
-
-
-}
-
-@keyframes mount {
-
-    0%{
-
-
-        background-position-x: 0%;
-
-    }
-
-    100% {
-
-        background-position-x: 100vw;
-
-    }
-    
-}
-
-
 
 
 main
 {
 
-
-    margin: 5px;
-
-    padding: 1rem;
-
-    border: 10px #F93 double;
-
-    border-radius: .5rem;
-
-    backdrop-filter: blur(2px);
-
-    background-color: rgba(0, 0, 0, 0.2);
-
     margin: auto;
+    
 
+    /*background-color: #EED;*/
+
+    background-image: url(backgrounds/paper.png);
+
+    /*background-image: -moz-linear-gradient(to bottom, #EED, #EED 2em, #CCF, #CCF 1em);
+
+    background-size: 70px;*/
+
+    background-repeat: repeat;
+
+    background-size: contain;
+
+    filter: drop-shadow(0px 2px 5px #000);
+
+    display: grid;
+
+    grid-template-columns: 15% 1fr 15%;
+
+}
+
+article{
+
+    padding: 1em;
+
+}
+
+#leftMargin{
+
+    border-right: 2px #F09 solid;
+
+}
+
+#rightMargin{
+
+    border-left: 2px rgba(255, 0, 153, 0.068) solid;
 
 }
 
 h1
 {
 
-    margin: 1rem;
-
     text-align: center;
 
-    font-size: 4rem;
+    font-size: 140%;
 
     font-variant-caps: small-caps;
 
-    letter-spacing: .3rem;
-
-    filter: drop-shadow(10px 10px 4px #000);
+    margin-top: 0;
 
 }
 
@@ -199,22 +116,13 @@ h3
 
     letter-spacing: .01rem;
 
-    filter: drop-shadow(10px 10px 4px #000);
-
 }
 
 p{
 
     text-align: justify;
 
-    color: #C60;
-
-    font-size: larger;
-
-    z-index: 0;
-
-
-
+    line-height: 26px;
 
 }
 
@@ -235,8 +143,6 @@ footer{
     padding: 0%;
 
     height: 5rem;
-
-    font-family: "Pirata One", system-ui;
 
     z-index: -998;
 
@@ -278,15 +184,24 @@ menu{
 .testimonial
 {
 
-    background-color: rgba(50, 50, 50, 0.4);
+    background-image: url(backgrounds/stickynote.png);
+
+    background-size: contain;
+
+
+    width: 18rem;
+
+    height: 18rem;
+
+    filter: hue-rotate(45deg);
+
+    margin: auto;
+
+    transform: rotate(5deg);
+
+    
 
     padding: 1rem;
-
-    margin: 3rem;
-
-    border: #F93 2px solid;
-
-    border-radius: 5px;
 
     h3{
 
@@ -303,6 +218,14 @@ menu{
     main{
 
         width: 50%;
+
+    }
+
+    header{
+
+        width: fit-content;
+
+        padding: .5% 10% .5%;
 
     }
     
