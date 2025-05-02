@@ -1,3 +1,5 @@
+
+
 html
 {
 
@@ -84,6 +86,14 @@ article{
 
 }
 
+.sticker{
+
+    width: 150px;
+
+    filter: drop-shadow(1px 1px 1px #00000062)
+
+}
+
 #leftMargin{
 
     border-right: 2px #F09 solid;
@@ -138,13 +148,21 @@ footer{
 
     position: sticky;
 
-    margin: 0%;
+    margin: auto;
 
-    padding: 0%;
+    width: 100vw;
 
-    height: 5rem;
+    z-index: 999;
 
-    z-index: -998;
+    background-image: url(backgrounds/footer.png);
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: contain;
+
+    filter: drop-shadow(0px 2px 5px #000);
 
 }
 
@@ -188,10 +206,11 @@ menu{
 
     background-size: contain;
 
+    position: relative;
 
-    width: 18rem;
+    width: 14rem;
 
-    height: 18rem;
+    height: 14rem;
 
     filter: hue-rotate(45deg);
 
