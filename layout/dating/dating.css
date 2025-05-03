@@ -1,4 +1,9 @@
+* {
+    
+    margin: 0%;
+    padding: 0
 
+}
 
 html
 {
@@ -11,9 +16,9 @@ html
 
     font-family: "Indie Flower", cursive;
     
-    padding: 0%;
+    padding: 0;
 
-    margin: 0%;
+    margin: 0;
 
 }
 
@@ -58,13 +63,8 @@ main
 {
 
     margin: auto;
-    
 
-    /*background-color: #EED;*/
-
-    /*background-image: url(backgrounds/paper.png);*/
-
-    background-image: repeating-linear-gradient(#EED, #EED 25px, #CCF 25px, #CCF 27px);
+    background-image: repeating-linear-gradient(#EED, #EED 15px, #CCF 15px, #CCF 17px);
 
     background-repeat: repeat;
 
@@ -74,7 +74,7 @@ main
 
     display: grid;
 
-    grid-template-columns: 15% 1fr 15%;
+    grid-template-columns: 15% 1fr 5%;
 
 }
 
@@ -130,7 +130,9 @@ p{
 
     text-align: justify;
 
-    line-height: 26px;
+    font-size: 17px;
+
+    line-height: 100%;
 
 }
 
@@ -148,11 +150,11 @@ footer{
 
     margin: auto;
 
-    width: fit-content;
+    width: 100vw;
 
-    padding: 1rem 5rem;
+    padding: 0;
 
-    padding-bottom: 0;
+    padding-top: 2rem;
 
     z-index: 999;
 
@@ -161,6 +163,8 @@ footer{
     background-repeat: no-repeat;
 
     background-position: center;
+
+    background-position-y: bottom;
 
     background-size: contain;
 
@@ -208,18 +212,19 @@ menu{
 
     background-size: contain;
 
-    position: relative;
-
     width: 14rem;
 
     height: 14rem;
 
     filter: hue-rotate(45deg);
 
-    margin: auto;
+    margin: 3rem auto;
 
     transform: rotate(5deg);
 
+    p{
+        font-size: medium;
+    }
     
 
     padding: 1rem;
@@ -239,6 +244,32 @@ menu{
     main{
 
         width: 50%;
+
+        grid-template-columns: 15% 1fr 15%;
+
+        background-image: repeating-linear-gradient(#EED, #EED 24px, #CCF 24px, #CCF 26px);
+
+    }
+
+    p{
+
+        font-size: 26px;
+
+    }
+
+    h1{
+
+        font-size: xx-large;
+
+    }
+
+    footer{
+
+        width: fit-content;
+
+        padding: 2rem 10% 0%;
+
+        margin-bottom: 0%;
 
     }
 
