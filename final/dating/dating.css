@@ -62,11 +62,9 @@ main
 
     /*background-color: #EED;*/
 
-    background-image: url(backgrounds/paper.png);
+    /*background-image: url(backgrounds/paper.png);*/
 
-    /*background-image: -moz-linear-gradient(to bottom, #EED, #EED 2em, #CCF, #CCF 1em);
-
-    background-size: 70px;*/
+    background-image: repeating-linear-gradient(#EED, #EED 25px, #CCF 25px, #CCF 27px);
 
     background-repeat: repeat;
 
@@ -150,7 +148,11 @@ footer{
 
     margin: auto;
 
-    width: 100vw;
+    width: fit-content;
+
+    padding: 1rem 5rem;
+
+    padding-bottom: 0;
 
     z-index: 999;
 
