@@ -8,11 +8,15 @@ html
 {
 
     background-color: #201030;
+
+    background-image: url(media/canvas_01.JPG);
+    background-size: 40%;
+
+    background-blend-mode: multiply;
+
     color: #c0d0d0;
 
     font-family: "Lexend", sans-serif;
-
-    background-size: 30rem;
 
 }
 
