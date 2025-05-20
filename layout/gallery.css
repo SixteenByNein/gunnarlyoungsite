@@ -18,7 +18,12 @@ main{
 
 #overlay{
 
+
     display: none;
+    flex-direction: column;
+    justify-content: space-around;
+
+    /*display: none;*/
 
     position: fixed;
     top: 0%;
