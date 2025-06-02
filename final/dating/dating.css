@@ -205,6 +205,62 @@ menu{
 
 }
 
+.barndoor{
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+}
+
+
+#nametag{
+
+
+    margin:auto;
+
+    transform: rotate(-5deg);
+
+    background-color: #43e;
+
+    font-family: 'Figtree', sans-serif;
+
+    color: #fff;
+
+    display: grid;
+
+    grid-template-rows: 3rem 7rem 1rem;
+
+    border-radius: 7px;
+
+    font-weight: normal;
+
+    text-align: left;
+
+    line-height: 120%;
+
+    #hello{
+
+        margin:auto;
+
+    }
+
+    h2{
+
+        font-size: 30px;
+
+    }
+
+    #myName{
+
+        background-color: #fff;
+
+    }
+
+    filter: drop-shadow(1px 1px 3px #00000062);
+
+}
+
 .testimonial
 {
 
@@ -216,7 +272,7 @@ menu{
 
     height: 14rem;
 
-    filter: hue-rotate(45deg);
+    filter: hue-rotate(60deg);
 
     margin: 3rem auto;
 
@@ -281,6 +337,12 @@ menu{
         width: fit-content;
 
         padding: .5% 10% .5%;
+
+    }
+
+    .barndoor{
+
+        grid-template-columns: 1fr 1fr;
 
     }
     
