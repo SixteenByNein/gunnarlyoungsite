@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "final"
+		},
+		{
+			"path": "layout"
+		},
+		{
+			"path": "parts"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "final"
+	}
+}
