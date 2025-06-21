@@ -7,10 +7,13 @@ body{
 html
 {
 
+    background: fixed;
+
     background-color: #201030;
 
     background-image: url(media/sketchbook.jpg);
     background-size: 40%;
+    
 
     background-blend-mode: multiply;
 
@@ -18,11 +21,17 @@ html
 
     font-family: "Lexend", sans-serif;
 
+    /*font-family: "EB Garamond", serif;*/
+
 }
 
 p{
 
     font-size: 18px;
+
+    /*letter-spacing: 1px;
+
+    font-weight: 500;*/
 
 }
 
@@ -120,8 +129,6 @@ h2, h3, h4, h5, h6{
 
 a
 {
-
-    text-decoration: none;
     color: #c0d0d0;
 
     transition-property: letter-spacing;
@@ -143,11 +150,6 @@ main{
 
     border: #100020 2px solid;
 
-    a{
-
-        text-decoration: underline;
-
-    }
 
 }
 
@@ -283,6 +285,12 @@ footer{
 header{
 
     z-index: 996;
+
+    a{
+
+        text-decoration: none;
+
+    }
 
     a:hover{
 
