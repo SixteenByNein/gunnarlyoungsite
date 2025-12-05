@@ -1,0 +1,49 @@
+to[index.html]
+
+html[
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunnar L. Young</title>
+]
+
+
+external[/parts/head.html]
+
+
+html[
+
+    <link rel="stylesheet" href="/home.css">
+
+</head>
+<body>
+
+]
+
+external[/parts/header.html]
+
+
+html[
+
+    <main>
+
+        <img src="self_portrait.png" alt="">
+        <img src="tree.png" alt="">
+        <img src="skull_icon.png" alt="">
+        <img src="robot_boy.png" alt="">
+        <img src="Bogart.png" alt="">
+        <img src="Cell_Batman_Render.png" alt="">
+
+    </main>
+
+]
+
+external[/parts/footer.html]
+
+html[
+</body>
+</html>
+]

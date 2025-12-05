@@ -1,0 +1,50 @@
+to[index.html]
+
+html[
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Gunnar L. Young</title>
+]
+
+
+external[/parts/head.html]
+
+
+html[
+
+    <link rel="stylesheet" href="/home.css">
+
+</head>
+<body>
+
+]
+
+external[/parts/header.html]
+
+
+html[
+
+    <main>
+
+        <h2>
+
+            Need an illustration, <br>a video, <br>photos, <br>a 3D model, <br>a website,<br>poor life advice, <br>or just about anything else?
+
+        </h2>
+
+        <h2>I'm the creative handyman for all your artistic needs!<br>Email me at <a href="mailto:post@gunnarlyoung.com" style="text-decoration: underline;">post@gunnarlyoung.com</a>!</h2>
+
+    </main>
+
+]
+
+external[/parts/footer.html]
+
+html[
+</body>
+</html>
+]

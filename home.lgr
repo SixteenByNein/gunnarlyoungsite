@@ -1,0 +1,99 @@
+to[index.html]
+
+html[
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunnar L. Young</title>
+]
+
+
+external[/parts/head.html]
+
+
+html[
+
+    <link rel="stylesheet" href="/home.css">
+
+</head>
+<body>
+
+]
+
+external[/parts/header.html]
+
+
+html[
+
+    <main>
+
+        <h1 id="nameMobile">Gunnar L. Young</h1>
+
+        <div id="bio">
+
+            <h2>About Me</h2>
+
+
+
+            <div id="bioText">
+
+                <img src="/homemedia/portrait.png" alt="" id="portrait">
+            
+                <div>
+
+                <p>
+
+                    I am a Utah-based artist. A generalist, I am proficient in 2D and 3D art, photography, filmmaking, and web development.
+                    <br>
+                    Check out my <a href="/portfolio">portfolio</a>, buy a <a href="https://store.gunnarlyoung.com/">tshirt</a>, check out some of my <a href="/projects">other projects</a>.
+                    <br>
+                    If there's anything I can do for you, <a href="/contact">get a quote.</a>
+
+                </p>
+
+                <img src="/homemedia/first_last.svg" alt="" id="first_last">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <a href="/doodle" id="doodle">
+
+            <h3>Doodle of the Week</h3>
+
+                <img src="/doodle/selfPortrait.jpg" alt="">
+
+        </a>
+
+        <a href="/portfolio">
+        <div id="portfolioIcon">
+
+            <h2>Check out my portfolio!</h2>
+
+            <img src="/homemedia/portfolio_icon.png" alt="">
+
+        </div>
+        </a>
+
+        <div id="storeIcon">
+
+
+
+        </div>
+
+
+    </main>
+
+]
+
+external[/parts/footer.html]
+
+html[
+</body>
+</html>
+]

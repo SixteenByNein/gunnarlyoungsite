@@ -1,19 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "final"
-		},
-		{
-			"path": "layout"
-		},
-		{
-			"path": "parts"
-		},
-		{
 			"path": "."
-		},
-		{
-			"path": "../TStreetSite/final"
 		}
 	],
 	"settings": {
