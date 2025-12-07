@@ -17,6 +17,7 @@ external[/parts/head.html]
 html[
 
     <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="/gallery.css">
 
 </head>
 <body>
@@ -30,8 +31,9 @@ html[
 
     <main>
 
+        <img src="chimpanzee.png" alt="a chimpanzee">
         <img src="self_portrait.png" alt="">
-        <img src="tree.png" alt="">
+        <img src="tree.png" alt="" class="double">
         <img src="skull_icon.png" alt="">
         <img src="robot_boy.png" alt="">
         <img src="Bogart.png" alt="">

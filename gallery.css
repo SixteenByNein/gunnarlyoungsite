@@ -1,16 +1,14 @@
 main{
 
     display: flex;
-    flex-direction: row;
-
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
+    
+    gap: 10px;
 
     img{
 
-        margin: .4rem;
-
-        height: 20rem;
+        height: 30rem;
 
         width: auto;
 
