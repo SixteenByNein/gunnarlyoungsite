@@ -71,7 +71,7 @@ html[
         </a>
 
         <a href="/portfolio">
-        <div id="portfolioIcon">
+        <div id="portfolioIcon"> 
 
             <h2>Check out my portfolio!</h2>
 
