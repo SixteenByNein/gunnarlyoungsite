@@ -31,6 +31,11 @@ html[
 
     <main>
 
+        <video autoplay loop muted playsinline>
+        
+        <source src="bear.webm" type="video/webm">
+        
+        </video>
         <img src="chimpanzee.png" alt="a chimpanzee">
         <img src="self_portrait.png" alt="">
         <img src="tree.png" alt="" class="double">

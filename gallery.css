@@ -6,7 +6,7 @@ main{
     
     gap: 10px;
 
-    img{
+    img, video{
 
         height: 30rem;
 
